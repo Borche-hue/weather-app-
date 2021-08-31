@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+.App {
+    background-image: url('C:\Users\rekleso\projects\practice\pracice\src\images\Beautiful_Sunset_Background-1366.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    transition: 0.6 ease;
+    display: flex;
+    align-items: center;
+}
+
+.App-cloudy {
+    background-image: url('C:\Users\rekleso\projects\practice\pracice\src\images\cloudy-wallpapper.jpeg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    transition: 0.6 ease;
+    display: flex;
+    align-items: center;
+}
+
+.App-rainy {
+    background-image: url('C:\Users\rekleso\projects\practice\pracice\src\images\rainyday.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.6 ease;
+
+    display: flex;
+    align-items: center;
+}
+
+.weather-app {
+    background-color: rgba(201, 190, 190, 0.4);
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    width: 100%;
+    height: 30px;
+}
+
+
+.search-bar .search {
+    width: 250px;
+    height: 100%;
+    border: 2px solid rgb(77, 77, 241);
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 5px 5px rgb(78, 77, 77);
+}
+
+.search-bar .search:focus{
+    border: none;
+    outline: none;
+    border: 2px solid rgb(112, 27, 27);
+}
+
+.weather-div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.weather-clouds {
+    background-image: url('C:\Users\rekleso\projects\practice\pracice\src\images\clouds-icon.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    width: 180px;
+    height: 180px;
+}
+
+.weather-rain {
+    background-image: url('C:\Users\rekleso\projects\practice\pracice\src\images\rain-icon.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    width: 180px;
+    height: 180px;
+}
+
+.weather-clear {
+    background-image: url('C:\Users\rekleso\projects\practice\pracice\src\images\sun-icon.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    width: 180px;
+    height: 180px;
+}
+
+.weather-info {
+    margin-left: 50px;
+}
+
+.weather-city {
+    font-size: 30px;
+    text-shadow: 2px 2px rgba(78, 77, 77, 0.5);
+}
+
+.weather-temp {
+    font-size: 60px;
+    font-weight: 400;
+    text-shadow: 2px 2px rgba(78, 77, 77, 0.5);
+}
+
+.weather-stat {
+    font-size: 35px;
+    text-shadow: 2px 2px rgba(78, 77, 77, 0.5);
+}
+
+.forecast-3days {
+    z-index: 1;
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.weather-forecast {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.forecast-text {
+    font-size: 30px;
+    padding: 10px 10px;
+    text-align: center;
+    color: black;
+}
+
+.tommorow {
+    background-color: rgba(247, 232, 232, 0.4);
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 160px;
+    height: 150px;
+    margin-right: 30px;
+
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.tommorow-sunny {
+    background-image: url('C:\Users\rekleso\projects\practice\pracice\src\images\sun-icon.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    margin-left: 55px;
+    width: 50px;
+    height: 50px;
+}
+
+.tommorow-rain {
+    background-image: url('C:\Users\rekleso\projects\practice\pracice\src\images\rain-icon.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    margin-left: 55px;
+    width: 50px;
+    height: 50px;
+}
+
+.tommorow-clouds {
+    background-image: url('C:\Users\rekleso\projects\practice\pracice\src\images\clouds-icon.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    margin-left: 55px;
+    width: 50px;
+    height: 50px;
+}
+
+.tommorow-day {
+    font-size: 20px;
+}
+
+.tommorow-temp {
+    font-size: 25px;
+}
+
+.tommorow-stat {
+    font-size: larger;
+}
