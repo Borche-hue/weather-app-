@@ -17,7 +17,7 @@ body {
 }
 
 .App-cloudy {
-    background-image: url('C:\Users\rekleso\projects\practice\pracice\src\images\cloudy-wallpapper.jpeg');
+    background-image: url('C:\Users\rekleso\projects\practice\pracice\src\weather-app\cloudy-wallpapper.jpeg');
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -30,7 +30,7 @@ body {
 }
 
 .App-rainy {
-    background-image: url('C:\Users\rekleso\projects\practice\pracice\src\images\rainyday.jpg');
+    background-image: url('C:\Users\rekleso\projects\practice\weather-app\src\images\rainyday.jpg');
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -85,7 +85,7 @@ body {
 }
 
 .weather-clouds {
-    background-image: url('C:\Users\rekleso\projects\practice\pracice\src\images\clouds-icon.png');
+    background-image: url('C:\Users\rekleso\projects\practice\weather-app\src\images\clouds-icon.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -95,7 +95,7 @@ body {
 }
 
 .weather-rain {
-    background-image: url('C:\Users\rekleso\projects\practice\pracice\src\images\rain-icon.png');
+    background-image: url('C:\Users\rekleso\projects\practice\weather-app\src\images\rain-icon.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -105,7 +105,7 @@ body {
 }
 
 .weather-clear {
-    background-image: url('C:\Users\rekleso\projects\practice\pracice\src\images\sun-icon.png');
+    background-image: url('C:\Users\rekleso\projects\practice\weather-app\src\images\sun-icon.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -174,7 +174,7 @@ body {
 }
 
 .tommorow-sunny {
-    background-image: url('C:\Users\rekleso\projects\practice\pracice\src\images\sun-icon.png');
+    background-image: url('C:\Users\rekleso\projects\practice\weather-app\src\images\sun-icon.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -185,7 +185,7 @@ body {
 }
 
 .tommorow-rain {
-    background-image: url('C:\Users\rekleso\projects\practice\pracice\src\images\rain-icon.png');
+    background-image: url('C:\Users\rekleso\projects\practice\weather-app\src\images\rain-icon.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -196,7 +196,7 @@ body {
 }
 
 .tommorow-clouds {
-    background-image: url('C:\Users\rekleso\projects\practice\pracice\src\images\clouds-icon.png');
+    background-image: url('C:\Users\rekleso\projects\practice\weather-app\src\images\clouds-icon.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
